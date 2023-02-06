@@ -1,0 +1,11 @@
+[package]
+name = "tif_splitor"
+version = "0.1.0"
+edition = "2021"
+description="This lib can split big tiff file to small ones by size of assigned."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/you assignedreference/manifest.html
+[dependencies]
+ndarray = "0.15.6"
+tiff = "0.8.1"
+walkdir = "2.3.2"
